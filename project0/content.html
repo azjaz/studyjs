@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <link rel="stylesheet" href="style.css"
+    </head>
+    <body>
+        <form>
+            <div>
+                <input name="name" type="text" placeholder="Name">
+                <input name="pass" type="password" placeholder="Password">
+            </div>
+            <div>
+                Favorite color?
+                <br>
+                <input name="color" type="radio" value="red"> Red
+                <input name="color" type="radio" value="green"> Green
+                <input name="color" type="radio" value="blue"> Blue
+            </div>
+            <div>
+                <input name="country" list="countries" placeholder="Country">
+                <datalist id="countries">
+                    <option value="Belarus"></option>
+                    <option value="Russia"></option>
+                    <option value="Poland"></option>
+                </datalist>
+            </div>
+        </form>
+    </body>
+</html>

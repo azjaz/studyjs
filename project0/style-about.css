@@ -1,0 +1,13 @@
+table {
+    border: 5px solid brown;
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    border: 2px solid blue;
+    padding: 2px;
+    text-align: center;
+}
+th {
+    background-color: royalblue;
+}
